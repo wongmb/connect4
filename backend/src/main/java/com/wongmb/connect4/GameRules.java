@@ -22,7 +22,7 @@ public class GameRules {
             throw new IllegalArgumentException("Invalid column");
         }
 
-        if (player != 'R' && player != 'C') {
+        if (player != 'R' && player != 'Y') {
             throw new IllegalArgumentException("Invalid player");
         }
 
